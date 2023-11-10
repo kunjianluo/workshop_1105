@@ -1,0 +1,38 @@
+body{
+    background-color: bisque;
+}
+
+.parent #c3:hover{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 34px;
+    letter-spacing: 1.6px;
+    word-spacing: -3.6px;
+    color: #629AFF;
+    font-weight: 700;
+    text-decoration: line-through solid rgb(68, 68, 68);
+    font-style: italic;
+    font-variant: small-caps;
+    text-transform: none;
+}
+
+#c2{
+    background-color: crimson;
+    height:50px;
+    width:50px;
+
+    padding:5px;
+    border:1px dashed;
+    
+}
+
+#std-1{
+    color: brown;
+}
+
+.std{
+    font-size: medium;
+}
+
+p{
+    color:crimson
+}
