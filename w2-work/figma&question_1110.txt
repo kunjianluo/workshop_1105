@@ -1,0 +1,7 @@
+figma：
+https://www.figma.com/file/hDG9Y4QM2C6fL30uCG1UyI/demo1?type=design&node-id=0%3A1&mode=design&t=hkF76j9jLWI3MJVS-1
+
+
+question：
+1.设置宽度为1920px，在纵向方向上设计了两页（2160px），但下半部分显示不出来，如何添加滚动效果？
+2.如何插入本地图片？
