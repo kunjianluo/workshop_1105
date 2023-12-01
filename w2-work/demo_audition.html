@@ -5,14 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>kun audition demo</title>
+
 </head>
-<body>
+<body style="overflow-y: scroll;">
 
     <div class="header">
         <div class="header-container">
             NATURE & CITY DUET
         </div>
-    <div>
+    </div>
 
     <div class="content">
 
@@ -24,19 +25,21 @@
                 <div class="btn">Lighting</div>
             </div>
             <div class="column1-2">
-                <img src="https://pngimg.com/uploads/world_map/world_map_PNG28.png"width="700px"height="400px"/> 
+                <img src="C:\1Broading\1_BenYuan\workshop1\table for github\workshop_kun\w2-work\world_map_PNG28.png"width="700px"height="400px"/> 
+                <div class="sound-marker" id="soundMarker1"></div>
+                <div class="sound-marker" id="soundMarker2"></div>
             </div>
             <div class="column1-3">
                 <div class="btn">Footsteps</div>
                 <div class="btn">Hawking</div>
-                <div class="btn">Car-passing</div>
+                <div class="btn">Footsteps</div>
             </div>
 
         </div>
 
         <div class="title">Step2:Check Collector</div>
         <div class="column2">
-            <div class="column2-1">(Collector for real-time preview)</div>
+            <div class="column2-1"></div>
             <div class="column2-2">GO</div>
         </div>
 
@@ -47,7 +50,10 @@
             Amazon rainstorms
             & Beijing hutongs”
         </div>
-
+        <div class="light-point"></div>
+        <div class="collector" id="collector"></div>
+        <canvas id="canvas"></canvas>
+        <script src="script.js"></script>
     </div> 
 
 </body>
