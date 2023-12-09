@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
     <title>kun audition demo</title>
 
 </head>
@@ -20,19 +21,19 @@
         <div class="title">Step1:Collect Voice</div>
         <div class="column1">
             <div class="column1-1">
-                <div class="btn">Rain</div>
-                <div class="btn">Wave</div>
-                <div class="btn">Lighting</div>
+                <div class="btn" id="Rain">Rain</div>
+                <div class="btn" id="Wave">Wave</div>
+                <div class="btn" id="Lighting">Lighting</div>
             </div>
             <div class="column1-2">
-                <img src="C:\1Broading\1_BenYuan\workshop1\table for github\workshop_kun\w2-work\world_map_PNG28.png"width="700px"height="400px"/> 
+                <img src="world_map_PNG28.png"width="700px"height="400px"/> 
                 <div class="sound-marker" id="soundMarker1"></div>
                 <div class="sound-marker" id="soundMarker2"></div>
             </div>
             <div class="column1-3">
-                <div class="btn">Footsteps</div>
-                <div class="btn">Hawking</div>
-                <div class="btn">Footsteps</div>
+                <div class="btn" id="Footsteps">Footsteps</div>
+                <div class="btn" id="Hawking">Hawking</div>
+                <div class="btn" id="Subway">Subway</div>
             </div>
 
         </div>
@@ -40,20 +41,28 @@
         <div class="title">Step2:Check Collector</div>
         <div class="column2">
             <div class="column2-1"></div>
-            <div class="column2-2">GO</div>
+            <!-- <div class="column2-2">GO</div> -->
         </div>
 
         <div class="title">Step3:Visualization & Share</div>
-        <div class="column3"></div>
-        <div class="title2">
-            “A duet of
-            Amazon rainstorms
-            & Beijing hutongs”
+        <div class="column3">
+            <div class="canvas-list">
+                <canvas id="canvas-1"></canvas>
+                <canvas id="canvas-2"></canvas>
+                <canvas id="canvas-3"></canvas>
+                <canvas id="canvas-4"></canvas>
+                <canvas id="canvas-5"></canvas>
+                <canvas id="canvas-6"></canvas>
+            </div>
         </div>
-        <div class="light-point"></div>
+        <div class="title2" id="duetDescription">
+            “A duet of
+            ”
+        </div>
+        <!-- <div class="light-point"></div> -->
         <div class="collector" id="collector"></div>
         <canvas id="canvas"></canvas>
-        <script src="script.js"></script>
+        <script src="script.js" defer></script>
     </div> 
 
 </body>
